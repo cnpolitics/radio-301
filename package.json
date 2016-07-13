@@ -1,9 +1,9 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "cnp-radio-301",
+  "version": "1.0.0",
+  "description": "The 301 redirection server for CNPolitics Radio",
   "engines": {
-    "node": "5.9.1"
+    "node": "6.0.0"
   },
   "main": "index.js",
   "scripts": {
