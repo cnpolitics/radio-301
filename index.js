@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.set('port', (process.env.PORT || 4000));
+app.set('port', 80);
 
 app.use(express.static(__dirname + '/public'));
 
@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.use(function(request, response, next) {
 	// response.render('pages/index');
-	response.redirect(301, 'http://realfish.github.io/cnp-radio-alt' + request.originalUrl);
+	response.redirect(301, 'http://cnpolitics.github.io/radio' + request.originalUrl);
 });
 
 app.listen(app.get('port'), function() {
